@@ -1,0 +1,154 @@
+Zenclassprogramme> db.users.find()
+[
+  {
+    _id: ObjectId("64385b4d08302387acea4d2f"),
+    UserName: 'Larry',
+    UserjoinDate: ISODate("2022-09-24T00:00:00.000Z"),
+    appearedplacement: 'true'
+  },
+  {
+    _id: ObjectId("64385bad08302387acea4d30"),
+    UserName: 'Deepak',
+    UserjoinDate: ISODate("2022-10-24T00:00:00.000Z"),
+    appearedplacement: 'false'
+  },
+  {
+    _id: ObjectId("64385c8a08302387acea4d31"),
+    UserName: 'Mahan',
+    UserjoinDate: ISODate("2022-09-28T00:00:00.000Z"),
+    appearedplacement: 'true'
+  },
+  {
+    _id: ObjectId("64385c8a08302387acea4d32"),
+    UserName: 'halim',
+    UserjoinDate: ISODate("2022-06-22T00:00:00.000Z"),
+    appearedplacement: 'false'
+  },
+  {
+    _id: ObjectId("64385c8a08302387acea4d33"),
+    UserName: 'manoj',
+    UserjoinDate: ISODate("2022-05-11T00:00:00.000Z")
+  },
+  {
+    _id: ObjectId("64385c8a08302387acea4d34"),
+    UserName: 'Wilson',
+    UserjoinDate: ISODate("2022-03-14T00:00:00.000Z"),
+    appearedplacement: 'true'
+  },
+  {
+    _id: ObjectId("64385c8a08302387acea4d35"),
+    UserName: 'Chitra',
+    UserjoinDate: ISODate("2022-02-01T18:30:00.000Z")
+  },
+  {
+    _id: ObjectId("64385c8a08302387acea4d36"),
+    UserName: 'Tanisha',
+    UserjoinDate: ISODate("2022-01-24T00:00:00.000Z")
+  },
+  {
+    _id: ObjectId("64385c8a08302387acea4d37"),
+    UserName: 'Priya',
+    UserjoinDate: ISODate("2022-09-24T00:00:00.000Z")
+  }
+]
+
+
+
+Zenclassprogramme> db.mentors.find()
+[
+  {
+    _id: ObjectId("643d2ce703b3d78c5438e633"),
+    Mentorname: 'Satheesh',
+    Menteecount: 10
+  },
+  {
+    _id: ObjectId("643d2ce703b3d78c5438e634"),
+    Mentorname: 'Anand',
+    Menteecount: 15
+  },
+  {
+    _id: ObjectId("643d2ce703b3d78c5438e635"),
+    Mentorname: 'ganesh',
+    Menteecount: 19
+  },
+  {
+    _id: ObjectId("643d2ce703b3d78c5438e636"),
+    Mentorname: 'Uma',
+    Menteecount: 1
+  },
+  {
+    _id: ObjectId("643d2ce703b3d78c5438e637"),
+    Mentorname: 'maheshwari',
+    Menteecount: 3
+  },
+  {
+    _id: ObjectId("643d2ce703b3d78c5438e638"),
+    Mentorname: 'Devi',
+    Menteecount: 12
+  },
+  {
+    _id: ObjectId("643d2ce703b3d78c5438e639"),
+    Mentorname: 'Larry',
+    Menteecount: 13
+  },
+  {
+    _id: ObjectId("643d2ce703b3d78c5438e63a"),
+    Mentorname: 'Zensean',
+    Menteecount: 22
+  },
+  {
+    _id: ObjectId("643d2ce703b3d78c5438e63b"),
+    Mentorname: 'santhosh',
+    Menteecount: 19
+  }
+]
+
+
+
+Zenclassprogramme> db.codekata.find()
+[
+  {
+    _id: ObjectId("643d291b03b3d78c5438e613"),
+    UserName: 'Larry',
+    codekata: '500'
+  },
+  {
+    _id: ObjectId("643d291b03b3d78c5438e614"),
+    UserName: 'Deepak',
+    codekata: '444'
+  },
+  {
+    _id: ObjectId("643d291b03b3d78c5438e615"),
+    UserName: 'Mahan',
+    codekata: '1000\n'
+  },
+  {
+    _id: ObjectId("643d291b03b3d78c5438e616"),
+    UserName: 'halim',
+    codekata: '333'
+  },
+  {
+    _id: ObjectId("643d291b03b3d78c5438e617"),
+    UserName: 'manoj',
+    codekata: '765'
+  },
+  {
+    _id: ObjectId("643d291b03b3d78c5438e618"),
+    UserName: 'Wilson',
+    codekata: '676'
+  },
+  {
+    _id: ObjectId("643d291b03b3d78c5438e619"),
+    UserName: 'Chitra',
+    codekata: '989'
+  },
+  {
+    _id: ObjectId("643d291b03b3d78c5438e61a"),
+    UserName: 'Tanisha',
+    codekata: '867'
+  },
+  {
+    _id: ObjectId("643d291b03b3d78c5438e61b"),
+    UserName: 'Priya',
+    codekata: '565'
+  }
